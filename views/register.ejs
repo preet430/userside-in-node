@@ -1,0 +1,113 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+
+
+
+
+<%- include header.ejs %>
+<head>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 400px;">
+	<h4 class="card-title mt-3 text-center" style="font-weight: 600;">Create Account</h4>
+
+	<form >
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 
+        <input  class="form-control" style="width:350px;" placeholder="Full name" type="text" >
+	</div>
+	
+</div> <!-- form-group// -->
+
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+        <input name="" class="form-control" style="width:350px;" placeholder="Email address" type="email" >
+	</div>
+	
+</div><!-- form-group// -->
+
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+        <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+      <div  style="max-width: 120px;" >
+		  <select >
+		    <option selected="">+91</option>
+      </select>
+    </div>
+    	<input name="" style="width:270px;"  class="form-control" placeholder="Phone number" type="text">
+	</div>
+	
+</div> <!-- form-group// -->
+    
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+		
+		<select style="width:350px;" >
+			<option selected value=""> User Type</option>
+			<!-- <option>Admin</option> -->
+			<option>Tailor</option>
+			<option>User</option>
+		</select>
+	</div>
+	
+</div> <!-- form-group end.// -->
+
+	
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+        <input class="form-control" style="width:350px;" placeholder="Create password" type="password" >
+	</div>
+
+</div><!-- form-group// -->
+
+    <!-- <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+        <input class="form-control" placeholder="Repeat password" type="password">
+	</div></div> -->
+	<!-- form-group// -->
+
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+			<span class="input-group-text"> <i class="fa fa-male"></i> </span>&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="gender"  value="true" id="gender" >&nbsp;<p style="font-size:13px;">male</p>&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="gender"  value="false" id="gender">&nbsp;<p style="font-size:13px;">female</p>
+		</div>
+		
+	</div> <!-- form-group// -->
+
+
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+			<span class="input-group-text"> <i class="fa fa-address-book"></i> </span>
+			<textarea name="" style="width:350px;" class="form-control" placeholder="Address" type="text"></textarea>
+		</div>
+		
+	</div> <!-- form-group// -->
+	
+	<div class="form-group">
+		    <input type="checkbox" /><a href="#" class=" text-dark" style="font-size:15px;margin-left:10px;">Agree terms and policy</a>
+	</div>
+
+    <div class="form-group">
+        <button type="submit" [disabled]="angForm.invalid" class="btn btn-primary btn-block"> <p style="font-size:15px;">Create Account</p>  </button>
+    </div> <!-- form-group// -->
+          
+    <p class="text-center" style="font-size:150%;">Have an account? <a href="/login">Log In</a> </p>                                                                 
+</form>
+</article>
+</div> <!-- card.// -->
+
+<%- include footer.ejs %>
+
+

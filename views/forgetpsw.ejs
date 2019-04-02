@@ -1,0 +1,31 @@
+
+<%- include header.ejs %>
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 400px;margin-top: 100px;">
+  <h4 class="card-title mt-3 text-center" style="font-weight: 600;">Reset Password</h4>
+
+  <form >
+
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+        <input name="" class="form-control" style="width:350px;" placeholder="Email address" type="email" >
+    </div>
+   
+  </div><!-- form-group// -->
+
+    
+  <div class="form-group">
+    <button type="submit" [disabled]="angForm.invalid" class="btn btn-primary btn-block"> <p style="font-size:15px;">send</p>  </button>
+</div> <!-- form-group// -->
+
+    <p class="text-center" style="font-size:150%;">Please check your email!!!<a href="/login">Login</a> </p>     
+
+  </form>
+</article>
+</div> <!-- card.// -->
+<%- include footer.ejs %>

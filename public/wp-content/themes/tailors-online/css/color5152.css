@@ -1,0 +1,49 @@
+/*=============================================
+			Theme Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.tg-navigation > ul > li.current-menu-item > a,
+.tg-usefulllinks li a:hover,
+.tg-tailoronlinework .tg-customsuitprocess li + li:after,
+.tg-themeliststyletick li:before,
+.tg-producttabnav li.active a,
+.tg-producttabnav li a:hover,
+.tg-widget ul li a:hover,
+.tg-widget ul li:hover a,
+.tg-widget ul li:hover span{color: #57c778;}
+/*=============================================
+			Theme Background Color
+=============================================*/
+.tg-topbar,
+.tg-btn:before,
+.tg-navigation ul li a:after,
+.tg-pagination ul li.tg-active a,
+.tg-pagination ul li a:hover,
+.tg-pagination ul li.tg-nextpage a:hover,
+.tg-pagination ul li.tg-prevpage a:hover,
+.tg-themerangeslider .ui-slider-range,
+.tg-liststyledot li:hover:before,
+.tg-homebanner figcaption h2:before,
+.tg-processicon,
+.tg-heading:after,
+.tg-statasticicon:before,
+.tg-freeiconpack .tg-shortcodeimg figure figcaption,
+.tg-formnewsletter,
+.flipster__nav li.flipster__nav__item--current a,
+.tg-producttabnav li a:before,
+.tagcloud a{background:#57c778;}
+.tagcloud a:hover{background: #4ba565;}
+/*=============================================
+			Theme Border Color
+=============================================*/
+input:focus,
+.select select:focus,
+.form-control:focus,
+.tg-footer{border-color: #57c778;}
+.tg-productimg figcaption{border-color: rgba(87, 199, 120, 0.80);}
+.tg-btn{border-color: #469f60;}

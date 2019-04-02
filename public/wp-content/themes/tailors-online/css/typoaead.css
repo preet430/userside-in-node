@@ -1,0 +1,325 @@
+.main-page-wrapper .tailors-online-elm-section:nth-child(1),
+.fw-page-builder-content .tailors-online-elm-section:nth-child(1) {padding: 0px 0px 80px 0px;}
+.tailors-online-elm-section {
+    padding: 80px 0;
+    float: left;
+    width: 100%;
+}
+.stretch_section_contents_corner .builder-column{ 
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.builder-items{ float:left; width:100%;}
+
+.wpb_content_element{
+    margin:0;
+    padding:0;
+}
+.wtf-menu .dropdown { opacity: 1.0; }
+
+
+.blog-grid-view .item {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+}
+.owl-carousel .item {
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 0;
+}
+.elm-none{ display:none;}
+.booking-from .alert.alert-danger {
+    border: solid 3px #FFA3A3;
+    background: #FBF0F0;
+    padding: 12px 0;
+    margin: -28px 0 15px 16px;
+    width: 96%;
+    border-radius: 0px;
+    text-align: center;
+    color: #363636;
+    font-size: 20px;
+}
+.booking-from .alert.alert-success {
+    border: solid 3px #3CB371;
+    background: none;
+    padding: 12px 0;
+    margin: -28px 0 15px 16px;
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    color: #363636;
+    font-size: 20px;
+}
+.owl-demo .item {
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 0;
+}
+.tailors-online-imageframe img {/* padding-bottom: 0; */}
+.add_to_cart_button i.fa-refresh, .add_to_cart_button i.fa-check { display: none; }
+.shop-gallery .cbp-item .add_to_cart_button.loading i.fa-refresh { display: block; }
+.shop-gallery .cbp-item .add_to_cart_button.added i.fa-refresh { display: none; }
+.shop-gallery .cbp-item .add_to_cart_button.added i.fa-check { display: block; }
+.pro-image .thumbnails a img {
+    width: 100px;
+    height: 100px;
+}
+.pro-image .thumbnails {
+    padding-top: 15px;
+    float: left;
+    width: 100%;
+}
+.pro-image .thumbnails a {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    float: left;
+    margin: 0px 0px 10px 10px;
+    border-radius: 2px;
+}
+.pro-image .thumbnails a:first-child { margin-left: 0px; }
+.pro-detail .star-rating { float: left; }
+.header-two .shop-bag .cart-food .detail img {
+    height: 62px;
+    width: 62px;
+}
+/*Woo*/
+.woocommerce-shipping-fields #ship-to-different-address { width: 100%; }
+.event-map {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+/* =WordPress Core
+-------------------------------------------------------------- */
+.wp-caption .wp-caption-text, .entry-caption, .gallery-caption {
+    font-size: 15px;
+    font-weight: 300;
+}
+.sticky { }
+.bypostauthor { }
+.alignnone { margin: 5px 20px 20px 0; }
+.aligncenter, div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone { margin: 5px 20px 20px 0; }
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: left;
+}
+aside .wp-caption { max-width: 100%; }
+aside .wp-caption img { margin: 0 0 10px; }
+.tailors-online-post-content .wp-caption.aligncenter { float: none; }
+.tailors-online-post-content .wp-caption.alignright { float: right; }
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+    float: none;
+}
+.wp-caption.alignleft { margin: 5px 20px 20px 0; }
+.wp-caption.alignright { margin: 5px 0 20px 20px; }
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+/* =WordPress Core End*/
+
+/*---Woo Menu---*/
+.woocommerce-MyAccount-navigation  ul li{
+    display: block;
+    color: #555;
+    padding: 15px;
+    border-bottom: 1px dotted #ddd;
+}
+.woocommerce-MyAccount-navigation  ul li a{
+    color:#363636;
+}
+.woocommerce-MyAccount-content p a:hover,
+.woocommerce-MyAccount-navigation  ul li a:hover{
+    color: #ff3f3a;
+}
+
+/*---*/
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: left;
+    width: 30%;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+    float: right;
+    width: 68%;
+}
+.woocommerce-MyAccount-content .edit,
+.woocommerce-MyAccount-content p a{color: #ff3f3a;}
+
+.woocommerce-MyAccount-navigation  ul li.is-active a{
+    color: #ff3f3a;
+    font-weight:600;
+}
+.woocommerce-MyAccount-content input[type=submit],
+.woocommerce-MyAccount-content a.button{
+    min-width: 300px;
+    height:50px;
+    line-height:50px;
+    font-size: 16px;
+    background: #363636;
+    color: #fff;
+    border: 0;
+    padding:0;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    background: #ff3f3a;
+}
+.woocommerce-MyAccount-content input[type=submit],
+.woocommerce-MyAccount-content .woocommerce-Button.button{
+    background: #ff3f3a;
+    color:#FFF;
+}
+.edit-account fieldset legend{
+    padding-top:30px;
+}
+.woocommerce-MyAccount-content .woocommerce-Button.button:hover{
+    color:#FFF !important;
+    background: #ff3f3a;
+}
+.col2-set .u-column2.col-2.woocommerce-Address{ padding:0;}
+
+
+.comment-data-wrap ul li{
+    list-style:disc;
+    padding:0;
+}
+.comment-data-wrap ol li{
+    padding:0;
+    list-style-type:decimal;
+}
+.page-links{
+    width:100%;
+    float:left;
+    line-height:30px;
+    font:12px/30px 'Oswald', Arial, Helvetica, sans-serif;
+}
+.page-links > span{
+    width: 35px;
+    display: inline-block;
+    margin: 0;
+    color:#fff;
+    text-align: center;
+    line-height: inherit;
+    list-style-type: none;
+}
+.page-links > span.page-links-title{
+    width:auto;
+    color:#484848;
+    font-size:15px;
+    background:none;
+    margin:0 10px 0 0;
+}
+.page-links a{
+    width: 35px;
+    display: inline-block;
+    color: #484848;
+    background: #f8f8f8;
+    text-align: center;
+    position: relative;
+    line-height: inherit;
+}
+.page-links a:hover{color:#fff;}
+.tg-fcols .tg-widget{
+    background:none;
+    color:#fff;
+    padding:0;
+    margin:0;
+}
+.tg-fcols .tg-widget + .tg-widget{margin:30px 0 0;}
+.tg-fcols .tg-widget .tg-title h3{
+    border:0;
+    padding:0;
+}
+.tg-fcols .tg-widget .tg-title h3:after{display:none;}
+.tg-fcols .tg-widget .tagcloud a,
+.tg-fcols .tg-widget ul li a{color:#fff;}
+.tg-fcols .tg-widget.widget_rss .tg-title h3 a{display:inline-block; color:#fff;}
+.tg-fcols .tg-widget.widget_rss .tg-title h3 a img{margin:-3px 0 0;}
+.tg-fcols .tg-widget.widget_rss ul li:first-child{padding-top:0;}
+.tg-fcols .tg-widget.widget_rss ul li:last-child{padding-bottom:0;}
+.widget_nav_menu ul li .tg-dropdownmenu{
+    position:static;
+    visibility:visible;
+    opacity:1;
+    background:none;
+}
+.widget_nav_menu ul li a:before{display:none;}
+.widget_nav_menu ul li .tg-dropdownmenu li a:hover,
+.widget_nav_menu ul li .tg-dropdownmenu li a{background:none;}
+.widget_nav_menu ul li .tg-dropdownmenu li a:before{display:none;}
+.tg-fcols .tg-widget.widget_text p strong{color:#fff;}
+
+
+/**Custom css**/
+.tg-banner {
+    height: 250px;
+    background-position: 100% 100% !important;
+}

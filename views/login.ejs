@@ -1,0 +1,100 @@
+<%- include header.ejs %>
+<head>
+    <!--login start-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!--login end-->
+<!-- <style>
+    .divider-text {
+        position: relative;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .divider-text span {
+        padding: 7px;
+        font-size: 12px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .divider-text:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        top: 55%;
+        left: 0;
+        z-index: 1;
+    }
+</style> -->
+
+</head>
+
+<div class="card bg-light">
+    <article class="card-body mx-auto" style="max-width: 400px;">
+        <h4 class="card-title mt-3 text-center" style="font-weight: 600;">Login</h4>
+
+        <form>
+
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                    <input name="" style="width:350px;" class="form-control" placeholder="Email address" type="email">
+                </div>
+
+            </div>
+
+            <!-- form-group// -->
+
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+
+
+                    <select style="width:350px;" formControlName="userType">
+                        <option selected value=""> User-Type</option>
+                        <!-- <option>Admin</option> -->
+                        <option>Tailor</option>
+                        <option>User</option>
+                    </select>
+                </div>
+
+            </div> <!-- form-group end.// -->
+
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    <input class="form-control" style="width:350px;" placeholder="Enter password" type="password">
+                </div>
+
+            </div>
+
+            <!-- form-group// -->
+
+            <div class="form-group">
+                <input type="checkbox"><a href="#" class=" text-dark" style="font-size:15px;margin-left:10px;">Remamber
+                    me</a>
+                <a href="/forgetpsw" style="font-size:15px;margin-left:120px;">Forget password?</a>
+            </div>
+
+            <!-- <div class="alert-danger" *ngIf="angForm.controls['chk'].invalid && angForm.controls['chk'].touched">
+      <div *ngIf="angForm.controls['chk'].errors.required">
+
+    allow terms&cond</div></div> -->
+
+            <div class="form-group">
+                <button type="submit" [disabled]="angForm.invalid" class="btn btn-primary btn-block" (click)="helo()">
+                    <p style="font-size:15px;">Sign In</p> </button>
+            </div> <!-- form-group// -->
+
+            <p class="text-center" style="font-size:150%;">Not Have an account? <a href="/register">Sign Up</a>
+            </p>
+
+        </form>
+    </article>
+</div> <!-- card.// -->
+
+<%- include footer.ejs %>

@@ -1,0 +1,179 @@
+@media (max-width:1200px){
+	.tg-homebanner figcaption h2 {
+		font-size: 80px;
+		line-height: 56px;
+	}
+	.tg-homebanner figcaption h1 {
+		font-size: 50px;
+		line-height: 34px;
+	}
+}
+@media (max-width:1199px){
+	.tg-homebanner > figure > img {height: 630px;}
+	.tg-builtinasset .tg-shortcodetext {min-height: 304px;}
+	.tg-showcaseslider ul.flipster__container li {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+@media (max-width:991px){
+	.tg-logo {
+		width: 235px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	.tg-navigationarea{
+		width: 100%;
+		float: left;
+		padding: 20px 0 0;
+	}
+	.tg-producttextbox .cart a.tg-btn,
+	.tg-producttextbox .cart .single_add_to_cart_button{padding: 3px 30px 0 !important;}
+	.tg-customsuitprocess li{
+		width:33.33%;
+		float: left;
+		display: block;
+		padding: 0 20px !important;
+	}
+	.tg-processimg{width: 100%;}
+	.tg-processicon {
+		top: 5px;
+		right: 5px;
+		width: 40px;
+		height: 40px;
+		font-size: 13px;
+		line-height: 40px;
+	}
+	.tg-processicon i {
+		font-size: 12px;
+		line-height: 40px;
+	}
+	.tg-shortcodemultiimgs{margin: 80px 0 0;}
+	.tg-statastic{
+		width: 50%;
+		padding: 15px;
+	}
+	.tg-statastic:nth-child(1),
+	.tg-statastic:nth-child(2){padding: 0 15px 30px;}
+	.tg-statastic:nth-child(3),
+	.tg-statastic:nth-child(4){padding: 30px 15px 0;}
+	.tg-tailoronlinework .tg-customsuitprocess li:before {top: 100px;}
+	.tg-tailoronlinework .tg-customsuitprocess li + li:after {top: 84px;}
+	.tg-userfriendlymeasurments{padding-top: 80px !important;}
+	.tg-userfriendlymeasurments .tg-shortcodeimg figure {margin: 0 0 -30px;}
+	section.tg-Woocommerce {
+		padding-top: 80px !important;
+		padding-bottom: 80px !important;
+	}
+	.tg-Woocommerce .tg-Woocommerce .tg-description p{margin: 0;}
+	.tg-Woocommerce .sc-image{display: none;}
+	.tg-orderandemailsystem .tg-shortcodetext {padding: 60px 0 0;}
+	section.tg-freeiconpack{
+		padding-top: 80px !important;
+		padding-bottom: 80px !important;
+	}
+	section.tg-adinpanel{padding-bottom: 80px !important;}
+	.tg-adinpanel .tg-shortcodeimg figure {margin: -40px 0 60px;}
+	.tg-adinpaneltwo .tg-showcaseslider{padding: 60px 0 0;}
+	.tg-detailedcustomizationsteps .tg-shortcodetext {padding: 60px 0 0;}
+}
+@media (max-width:800px){}
+@media (max-width:767px){
+	.tg-producttextbox .cart .tg-btn {
+		padding: 0 20px;
+		margin: 0 30px 0 0;
+	}
+	.tg-productgallery {margin: 30px 0 0;}
+	.tg-tabcontent {padding: 15px;}
+	.tg-addressinfo{
+		width: 100%;
+		float: left;
+		padding: 7px 0;
+		text-align: center;
+	}
+	.tg-addressinfo li{
+		float: none;
+		padding: 8px 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.navbar-toggle {margin: 5px 0 4px;}
+	.tg-navigation{
+		top: 100%;
+		left: 0;
+		width: 100%;
+		z-index: 999;
+		background: #fff;
+		position: absolute;
+	}
+	.tg-navigation ul{
+		width: 100%;
+		float: left;
+	}
+	.tg-navigation ul li{
+		width: 100%;
+		float: left;
+		padding: 0;
+	}
+	.tg-tailoronlinework .tg-customsuitprocess li{
+		width: 100%;
+		float: left;
+		padding: 20px 0 !important;
+	}
+	.tg-tailoronlinework .tg-customsuitprocess li:before,
+	.tg-tailoronlinework .tg-customsuitprocess li:after{display:none !important;}
+	.tg-tailoronlinework .tg-processimg{width:200px;}
+	.tg-userfriendlymeasurments .tg-shortcodeimg figure img {max-width: 100%;}
+	.tg-homebanner figcaption h1 {
+		font-size: 34px;
+		line-height: 24px;
+	}
+	.tg-homebanner figcaption h2 {
+		font-size: 40px;
+		line-height: 27px;
+		margin: 0 0 20px;
+		padding: 0 0 15px;
+	}
+	.tg-heading h2 {font-size: 26px;}
+	.tg-topbar .tg-socialicons{width: 100%;}
+	.tg-topbar .tg-socialicons li{
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+@media (max-width:640px){}
+@media (max-width:568px){}
+@media (max-width:480px){}
+@media (max-width:479px){
+	.tg-producttabnav li a {width: 140px;}
+	.tg-producttextbox .cart a.tg-btn,
+	.tg-producttextbox .cart .single_add_to_cart_button {
+		margin: 0;
+		width: 100%;
+	}
+	.tg-producttextbox .cart a.tg-btn{margin: 20px 0 0}
+	.tg-homebanner .tg-customsuitprocess li{
+		width: 50%;
+		padding: 15px !important;
+	}
+	.tg-homebanner .tg-customsuitprocess li .tg-processimg{
+		width: 150px;
+		float: none;
+		margin: 0 auto;
+	}
+	.tg-statastic {width: 100%;}
+	.tg-btns .tg-btn{
+		width: 45%;
+		float: left;
+		margin: 0 !important;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.tg-btns .tg-btn + .tg-btn{float:right;}
+}
+@media (max-width:359px){
+	.tg-btns .tg-btn{width: 100%;}
+	.tg-btns .tg-btn + .tg-btn{margin: 15px 0 0 !important;}
+}
